@@ -1,0 +1,206 @@
+.container 
+{
+	margin: auto;
+}
+.infoBox
+{
+	display:none;
+}
+div
+{
+	display:block;
+}
+details
+{
+	margin:auto;
+}
+header
+{
+	color:white;
+	font-family: Roboto, sans-serif;
+	font-size: 20px;
+	opacity:0.7;
+	height:10%;
+	text-indent:3%;
+	position:relative;
+	display:block;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+header div
+{
+	display:none;
+}
+.landscapeHeader
+{
+	display:none;
+}
+.container .mainmenu nav{
+  background-color: #666;
+  height: 40px;
+  border-radius: 5px;
+  font-family:Roboto, Arial, Serif;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  
+}
+
+.container .mainmenu nav ul, .subcontainer ul{
+  list-style: none;
+  margin-left: 15%;
+}
+
+.container .mainmenu nav ul li, .subcontainer ul li{
+  float: left;
+  display: inline;
+}
+
+.container .mainmenu nav a:link, .container .mainmenu nav a:visited{
+  color: #FFF;  
+  display: inline-block;
+  padding: 10px;
+  height: 20px;
+}  
+
+.container .mainmenu nav a:hover, .container .mainmenu nav a:active,
+.container .mainmenu nav .active a:link, .container .mainmenu nav .active a:visited {
+  background-color:  silver;
+  text-shadow: none;
+}
+
+.container .mainmenu nav ul li a{
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+#searchBox{
+	float:left;
+	position:relative;
+	display:block;
+	margin-top:6%;
+	font-family:Roboto, Arial, Serif;
+	margin-left:30%;
+}
+#searchBox label
+{
+	display:none;
+}
+#searchBox input
+{
+	padding-right:auto;
+	margin-bottom:1%;
+}
+select
+{
+	border-radius:5px;
+}
+#headSummary
+{
+	color:white;
+	font-family: Roboto, sans-serif;
+	clear:both;	
+	position:relative;
+	margin-left:5%;
+	margin-top:10%;
+	
+	
+}
+.summary
+{
+	display:block;	
+	margin:auto;
+	clear:both;
+}
+@media print { .hide, .show { display: none; } }
+.listItems
+{
+	width:80%;
+	margin-bottom:10%;
+	height:10%;
+	border:5px solid black;
+	background:red;
+}
+#summ1-1
+{
+	display:block;
+}
+#summ2-1
+{
+	display:block;
+}
+#summ3-1
+{
+	display:block;
+}
+.portraitContent
+{
+	display:none;
+	border:1px solid black;
+	background:white;
+	font-family: Roboto, sans-serif;
+	padding:10%;
+	border-radius:5px;
+}
+.summaryTabs
+{
+	border:3px solid black;
+	border-radius:5px;
+	color:White;
+	background:#666;
+	margin-bottom:5px;
+	font-family: Roboto, sans-serif;
+}
+#courselist
+{
+	display:none;
+	clear:both;
+	margin-top:5%;
+	height:50%;
+	width:50%;
+	overflow:auto;
+	margin:10% 10% 10% 10%;
+}
+div h3
+{
+	text-align:center;
+}
+ul
+{
+	margin-left:10%
+}
+
+#footer {
+          font-family: Roboto, sans-serif;
+          font-weight: 300;
+          text-align: center;
+          background-color: silver;
+          color: black;
+          margin-top: 20px;
+          padding-bottom: 10px;
+          padding-top: 10px;
+         
+		  
+      }
+
+/*------------TABS---------------*/
+
+#cont1
+{
+	display:none;
+	
+}
+.box
+{
+	
+	display:none;
+	
+}
+.content
+{
+	display:none;
+}
+.tab input
+{
+	display:none;
+}

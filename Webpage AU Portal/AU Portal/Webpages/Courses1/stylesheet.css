@@ -1,0 +1,145 @@
+div
+{
+	display:block;
+}
+.clearfix
+{
+	clear:both;
+}
+.container
+{
+	background-image:url(background.jpg);
+	background-size:cover;
+	font-family: Roboto, sans-serif;
+}
+.header
+{
+	background-color:#99CCFF;
+	font-family: Roboto, sans-serif;
+	font-size: 20px;
+	opacity:0.7;
+	height:10%;
+	text-indent:3%;
+	position:relative;
+}
+.header p
+{
+	vertical-align:text-bottom;
+}
+
+.circle
+{
+	height:10%;
+	width:80%;
+	border-radius:100%;
+	border:3px solid red;
+	margin:0% 0% 0% 10%;
+	background-color:White;
+	font-size:20px;
+	text-align:center;
+	
+}
+.circle-text
+{
+	box-sizing:border-box;
+	vertical-align:middle;
+}
+.inner
+{
+	height: 100%;
+    width: 100%;
+	background: #FFF;
+    border: 3px solid #1a1a1a;
+	border-radius: 50%;
+	padding: 0%;
+    box-sizing: border-box;
+}
+.in1
+{
+	border: 3px solid #FFFF66;
+}
+.in2
+{
+	border: 3px solid #1a1a1a;
+}
+.line
+{
+	width:2.25%;
+	height:10%;
+	background-color:#D1FF47;
+	margin-left:53%;
+}
+.timeline
+{
+	height:70%;
+	background-color:Blue;
+	width:1%;
+	position:relative;
+	border-radius:10%;
+}
+.timeline-text
+{
+	/*border:2px solid black;*/
+	height:70%;
+	width:10%;
+	color:White;
+}
+.box
+{
+	position:relative;
+	height:70%;
+	width:50%;
+	float:right;
+/*	border:2px solid black;*/
+	margin-top:5%;
+	margin-bottom:auto;
+	margin-right:5%;
+}
+#sample
+{
+	text-align:centre;
+	margin:auto;
+}
+
+/*------------TABS---------------*/
+
+.tabs {
+  position: relative;   
+  min-height: 97%; 
+  clear: both;
+  margin: 2% 0;
+}
+.tab {
+  float: left;
+}
+.tab label {
+  background: #eee; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin-left: -1px; 
+  position: relative;
+  left: 1px; 
+}
+.tab [type=radio] {
+  display: none;   
+}
+.content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  
+  overflow:auto;
+  border: 1px solid #ccc; 
+}
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}

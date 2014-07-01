@@ -1,0 +1,15 @@
+.text{
+	float:right;
+	position:relative;
+	background-color:Blue;
+	border:1px solid red;
+}
+.pic
+{
+	margin:auto;
+	height:20%;
+	width:60%;
+	border:2px solid black;
+	position:relative;
+	float:right;
+}

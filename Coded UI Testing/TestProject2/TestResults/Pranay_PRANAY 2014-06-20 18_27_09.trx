@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7e8452d2-30e2-456b-9909-7a39ccf695d6" name="Pranay@PRANAY 2014-06-20 18:27:09" runUser="PRANAY\Pranay" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5dcea21d-002d-4cf6-bbf7-137a13555c43">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Pranay_PRANAY 2014-06-20 18_27_09" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-06-20T18:27:09.3504856+05:30" queuing="2014-06-20T18:27:10.3312015+05:30" start="2014-06-20T18:27:10.3932429+05:30" finish="2014-06-20T18:27:16.1348501+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\users\pranay sharma\documents\visual studio 2010\projects\testproject2\testproject2\bin\debug\testproject2.dll" id="8381a193-54c0-3048-9308-39513d9c1ed8">
+      <Execution id="7a590096-ad00-4252-bbd6-662597cd14e3" />
+      <TestMethod codeBase="C:/Users/Pranay Sharma/Documents/Visual Studio 2010/Projects/TestProject2/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.CodedUITest1, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8381a193-54c0-3048-9308-39513d9c1ed8" executionId="7a590096-ad00-4252-bbd6-662597cd14e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7a590096-ad00-4252-bbd6-662597cd14e3" testId="8381a193-54c0-3048-9308-39513d9c1ed8" testName="CodedUITestMethod1" computerName="PRANAY" duration="00:00:04.5557459" startTime="2014-06-20T18:27:10.4297669+05:30" endTime="2014-06-20T18:27:15.8935456+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a590096-ad00-4252-bbd6-662597cd14e3">
+      <Output>
+        <DebugTrace>E, 11868, 13, 2014/06/20, 18:27:12.877, 65160480288, QTAgent32.exe, LoadLibrary() : Unable to find the resource 37382 from assembly C:\WINDOWS\system32\en-US\ieframe.dll.mui: Error1814
+E, 11868, 13, 2014/06/20, 18:27:12.879, 65160484704, QTAgent32.exe, LoadLibrary() : Unable to find the resource 41728 from assembly C:\WINDOWS\system32\en-US\ieframe.dll.mui: Error1814
+E, 11868, 13, 2014/06/20, 18:27:12.881, 65160486909, QTAgent32.exe, LoadLibrary() : Unable to find the resource 8131 from assembly C:\WINDOWS\system32\en-US\ieframe.dll.mui: Error1814
+E, 11868, 13, 2014/06/20, 18:27:12.882, 65160489386, QTAgent32.exe, LoadLibrary() : Unable to find the resource 8131 from assembly C:\WINDOWS\system32\en-US\ieframe.dll.mui: Error1814
+E, 11868, 13, 2014/06/20, 18:27:12.884, 65160492365, QTAgent32.exe, LoadLibrary() : Unable to find the resource 8131 from assembly C:\WINDOWS\system32\en-US\ieframe.dll.mui: Error1814
+E, 11868, 13, 2014/06/20, 18:27:12.886, 65160495841, QTAgent32.exe, LoadLibrary() : Unable to find the resource 803 from assembly C:\WINDOWS\system32\en-US\user32.dll.mui: Error1814
+W, 11868, 13, 2014/06/20, 18:27:13.912, 65162295000, QTAgent32.exe, &lt;a class=success&gt;Playback - {1} [SUCCESS] SetValueAsEditBox "helloworld" - "[MSAA, VisibleOnly]ControlType='Edit'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 11868, 13, 2014/06/20, 18:27:14.896, 65164020776, QTAgent32.exe, &lt;a class=success&gt;Playback - {2} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='button1010'"
+\0&lt;/a&gt;
+W, 11868, 13, 2014/06/20, 18:27:15.651, 65165346827, QTAgent32.exe, &lt;a class=success&gt;Playback - {3} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='Close'"
+\0&lt;/a&gt;
+W, 11868, 13, 2014/06/20, 18:27:15.844, 65165683207, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 11868, 13, 2014/06/20, 18:27:15.846, 65165688010, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

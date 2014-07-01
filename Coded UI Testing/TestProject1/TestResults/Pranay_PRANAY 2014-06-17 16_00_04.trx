@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8bd6958b-7e9a-41fc-8d50-263480b5d414" name="Pranay@PRANAY 2014-06-17 16:00:04" runUser="PRANAY\Pranay" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="54d466d8-71b0-46bd-8be6-09eaa31d91dd">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Pranay_PRANAY 2014-06-17 16_00_04" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-06-17T16:00:04.5319662+05:30" queuing="2014-06-17T16:00:08.1894107+05:30" start="2014-06-17T16:00:08.6227003+05:30" finish="2014-06-17T16:00:17.6502338+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\users\pranay sharma\documents\visual studio 2010\projects\testproject1\testproject1\bin\debug\testproject1.dll" id="c724dcba-737e-59be-d4b3-3aa12e47e71d">
+      <Execution id="4737877b-4886-449c-a716-ee5dfc42df17" />
+      <TestMethod codeBase="c:/users/pranay sharma/documents/visual studio 2010/Projects/TestProject1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CodedUITest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c724dcba-737e-59be-d4b3-3aa12e47e71d" executionId="4737877b-4886-449c-a716-ee5dfc42df17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4737877b-4886-449c-a716-ee5dfc42df17" testId="c724dcba-737e-59be-d4b3-3aa12e47e71d" testName="CodedUITestMethod1" computerName="PRANAY" duration="00:00:07.1530909" startTime="2014-06-17T16:00:08.8288381+05:30" endTime="2014-06-17T16:00:17.5476655+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4737877b-4886-449c-a716-ee5dfc42df17">
+      <Output>
+        <DebugTrace>W, 10412, 14, 2014/06/17, 16:00:11.823, 39336918715, QTAgent32.exe, &lt;a class=success&gt;Playback - {1} [SUCCESS] TypeString "#(R)"
+\0&lt;/a&gt;
+E, 10412, 14, 2014/06/17, 16:00:12.576, 39338239023, QTAgent32.exe, Exception: System.ArgumentException
+	Message: Value does not fall within the expected range.
+	Stack Trace:    at Accessibility.IAccessible.get_accRole(Object varChild)
+   at Microsoft.VisualStudio.TestTools.UITest.Extension.Msaa.AccWrapper.get_RoleInt()
+	BaseExceptionMessage: Value does not fall within the expected range.
+
+E, 10412, 14, 2014/06/17, 16:00:12.617, 39338311525, QTAgent32.exe, Exception: System.ArgumentException
+	Message: Value does not fall within the expected range.
+	Stack Trace:    at Accessibility.IAccessible.get_accRole(Object varChild)
+   at Microsoft.VisualStudio.TestTools.UITest.Extension.Msaa.AccWrapper.get_RoleInt()
+	BaseExceptionMessage: Value does not fall within the expected range.
+
+W, 10412, 14, 2014/06/17, 16:00:16.485, 39345095892, QTAgent32.exe, Playback - [WARNING] Internal warning: Thread state based WFR - Requested element has invalid HWND
+\0
+W, 10412, 14, 2014/06/17, 16:00:16.485, 39345096367, QTAgent32.exe, Playback - [WARNING] Internal warning: process performance counters based WFR - Requested element has invalid HWND
+\0
+W, 10412, 14, 2014/06/17, 16:00:16.486, 39345096626, QTAgent32.exe, Playback - [WARNING] Internal failure: Window handle for this UI element is invalid
+\0
+W, 10412, 14, 2014/06/17, 16:00:16.486, 39345096844, QTAgent32.exe, Playback - [WARNING] Internal failure: Window handle for this UI element is invalid
+\0
+W, 10412, 14, 2014/06/17, 16:00:16.486, 39345097028, QTAgent32.exe, Playback - [WARNING] Internal warning: Thread state based WFR - Requested element has invalid HWND
+\0
+W, 10412, 14, 2014/06/17, 16:00:16.486, 39345097167, QTAgent32.exe, Playback - [WARNING] Internal warning: process performance counters based WFR - Requested element has invalid HWND
+\0
+E, 10412, 14, 2014/06/17, 16:00:16.486, 39345097354, QTAgent32.exe, &lt;a class=failure&gt;Playback - {2} [FAILED] SetValueAsComboBox "calc.exe" - "[MSAA, VisibleOnly]ControlType='ComboBox' &amp;&amp; Name='Open:'" (, See related internal warnings/failures for more information)
+\0&lt;/a&gt;
+E, 10412, 14, 2014/06/17, 16:00:16.669, 39345417336, QTAgent32.exe, Playback - [IMAGE] C:\Users\Pranay Sharma\AppData\Local\Temp\UITestLogs\LastRun\RPF4E6E.png
+\0
+E, 10412, 14, 2014/06/17, 16:00:16.799, 39345645067, QTAgent32.exe, Window 1443110 not responding. Last Win32 error 0
+E, 10412, 14, 2014/06/17, 16:00:16.800, 39345647594, QTAgent32.exe, GetClassName for handle 1443110 failed
+E, 10412, 14, 2014/06/17, 16:00:17.109, 39346189507, QTAgent32.exe, Window 1443110 not responding. Last Win32 error 2
+E, 10412, 14, 2014/06/17, 16:00:17.109, 39346189839, QTAgent32.exe, GetClassName for handle 1443110 failed
+E, 10412, 14, 2014/06/17, 16:00:17.109, 39346190000, QTAgent32.exe, GetClassName for handle 1443110 failed
+E, 10412, 14, 2014/06/17, 16:00:17.130, 39346225898, QTAgent32.exe, AL: Playback Error: Microsoft.VisualStudio.TestTools.UITest.Extension.PlaybackFailureException: Cannot perform 'SetProperty of EditableItem with value "calc.exe"' on the control. Additional Details: 
+TechnologyName:  'MSAA'
+ControlType:  'ComboBox'
+ ---&gt; System.Runtime.InteropServices.COMException: Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IScreenElement.SetValueAsComboBox(String bstrNewValue, Int32 nSetValueAsComboBoxFlag)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.SetValueAsComboBoxInternal(String value, SetValueAsComboBoxType setValueAsComboBoxType)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.SetValueAsComboBox(String value, Boolean useEdit)
+   at Microsoft.VisualStudio.TestTools.UITesting.WinPropertyProvider.SetComboBoxProperty(String propertyName, Object value)
+   at Microsoft.VisualStudio.TestTools.UITesting.WinPropertyProvider.SetPropertyValue(UITestControl uiControl, String propertyName, Object value)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.SetPropertyValueWrapper(UITestControl uiControl, String propertyName, Object value)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetPropertyValue(String propertyName, Object propertyValue)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowComException(COMException innerException, IPlaybackContext context)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, IPlaybackContext context)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, String actionName, UITestControl uiControl)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, String actionName, Object parameterValue, UITestControl uiControl)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetPropertyValue(String propertyName, Object propertyValue)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty(String propertyName, Object value)
+W, 10412, 14, 2014/06/17, 16:00:17.453, 39346793411, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 10412, 14, 2014/06/17, 16:00:17.454, 39346793674, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method TestProject1.CodedUITest1.CodedUITestMethod1 threw exception: 
+Microsoft.VisualStudio.TestTools.UITest.Extension.PlaybackFailureException: Cannot perform 'SetProperty of EditableItem with value "calc.exe"' on the control. Additional Details: 
+TechnologyName:  'MSAA'
+ControlType:  'ComboBox'
+ ---&gt; System.Runtime.InteropServices.COMException: Error HRESULT E_FAIL has been returned from a call to a COM component.</Message>
+          <StackTrace>    at Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IScreenElement.SetValueAsComboBox(String bstrNewValue, Int32 nSetValueAsComboBoxFlag)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.SetValueAsComboBoxInternal(String value, SetValueAsComboBoxType setValueAsComboBoxType)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.SetValueAsComboBox(String value, Boolean useEdit)
+   at Microsoft.VisualStudio.TestTools.UITesting.WinPropertyProvider.SetComboBoxProperty(String propertyName, Object value)
+   at Microsoft.VisualStudio.TestTools.UITesting.WinPropertyProvider.SetPropertyValue(UITestControl uiControl, String propertyName, Object value)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider.SetPropertyValueWrapper(UITestControl uiControl, String propertyName, Object value)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetPropertyValue(String propertyName, Object propertyValue)
+ --- End of inner exception stack trace ---
+    at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowComException(COMException innerException, IPlaybackContext context)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, IPlaybackContext context)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, String actionName, UITestControl uiControl)
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, String actionName, Object parameterValue, UITestControl uiControl)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetPropertyValue(String propertyName, Object propertyValue)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty(String propertyName, Object value)
+   at Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinComboBox.set_EditableItem(String value)
+   at TestProject1.UIMap.opencalc() in c:\users\pranay sharma\documents\visual studio 2010\Projects\TestProject1\TestProject1\UIMap.Designer.cs:line 46
+   at TestProject1.CodedUITest1.CodedUITestMethod1() in c:\users\pranay sharma\documents\visual studio 2010\Projects\TestProject1\TestProject1\CodedUITest1.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="PRANAY\CodedUITestMethod1.png" />
+      </ResultFiles>
+      <ExtensionResult>Exception has been thrown by the target of an invocation.</ExtensionResult>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d0f360ff-1a40-4fc6-b522-ae510f27ce20" name="Pranay@PRANAY 2014-06-17 16:00:44" runUser="PRANAY\Pranay" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="54d466d8-71b0-46bd-8be6-09eaa31d91dd">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Pranay_PRANAY 2014-06-17 16_00_44" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-06-17T16:00:44.5732291+05:30" queuing="2014-06-17T16:00:44.8779330+05:30" start="2014-06-17T16:00:44.9514819+05:30" finish="2014-06-17T16:00:58.3234188+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\users\pranay sharma\documents\visual studio 2010\projects\testproject1\testproject1\bin\debug\testproject1.dll" id="c724dcba-737e-59be-d4b3-3aa12e47e71d">
+      <Execution id="364bd332-c52e-4b6f-957c-f650f78934d1" />
+      <TestMethod codeBase="c:/users/pranay sharma/documents/visual studio 2010/Projects/TestProject1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CodedUITest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c724dcba-737e-59be-d4b3-3aa12e47e71d" executionId="364bd332-c52e-4b6f-957c-f650f78934d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="364bd332-c52e-4b6f-957c-f650f78934d1" testId="c724dcba-737e-59be-d4b3-3aa12e47e71d" testName="CodedUITestMethod1" computerName="PRANAY" duration="00:00:12.9058692" startTime="2014-06-17T16:00:44.9554846+05:30" endTime="2014-06-17T16:00:58.2924026+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="364bd332-c52e-4b6f-957c-f650f78934d1">
+      <Output>
+        <DebugTrace>W, 10412, 32, 2014/06/17, 16:00:45.693, 39396321166, QTAgent32.exe, &lt;a class=success&gt;Playback - {1} [SUCCESS] TypeString "#(R)"
+\0&lt;/a&gt;
+E, 10412, 32, 2014/06/17, 16:00:46.072, 39396985420, QTAgent32.exe, Exception: System.ArgumentException
+	Message: Value does not fall within the expected range.
+	Stack Trace:    at Accessibility.IAccessible.get_accRole(Object varChild)
+   at Microsoft.VisualStudio.TestTools.UITest.Extension.Msaa.AccWrapper.get_RoleInt()
+	BaseExceptionMessage: Value does not fall within the expected range.
+
+E, 10412, 32, 2014/06/17, 16:00:46.110, 39397053036, QTAgent32.exe, Exception: System.ArgumentException
+	Message: Value does not fall within the expected range.
+	Stack Trace:    at Accessibility.IAccessible.get_accRole(Object varChild)
+   at Microsoft.VisualStudio.TestTools.UITest.Extension.Msaa.AccWrapper.get_RoleInt()
+	BaseExceptionMessage: Value does not fall within the expected range.
+
+W, 10412, 32, 2014/06/17, 16:00:50.169, 39404172007, QTAgent32.exe, &lt;a class=success&gt;Playback - {2} [SUCCESS] LeftButtonClick  &lt; Mouse cursor location (87, 619) &gt;
+\0&lt;/a&gt;
+W, 10412, 32, 2014/06/17, 16:00:52.842, 39408859107, QTAgent32.exe, &lt;a class=success&gt;Playback - {3} [SUCCESS] SetValueAsEditBox "calc.exe"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 10412, 32, 2014/06/17, 16:00:52.842, 39408859533, QTAgent32.exe, &lt;a class=success&gt;Playback - {4} [SUCCESS] SetValueAsComboBox "calc.exe" - "[MSAA, VisibleOnly]ControlType='ComboBox' &amp;&amp; Name='Open:'"  &lt; Set via SetValueAsEditBox &gt;
+\0&lt;/a&gt;
+W, 10412, 32, 2014/06/17, 16:00:55.370, 39413292586, QTAgent32.exe, &lt;a class=success&gt;Playback - {5} [SUCCESS] SendKeys "{Enter}" - "[MSAA, VisibleOnly]ControlType='Edit' &amp;&amp; Name='Open:'"
+\0&lt;/a&gt;
+W, 10412, 32, 2014/06/17, 16:00:56.065, 39414511618, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 587 ms. Expected it to take maximum 500 ms.
+W, 10412, 32, 2014/06/17, 16:00:56.226, 39414794084, QTAgent32.exe, &lt;a class=success&gt;Playback - {6} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='TitleBar'"
+\0&lt;/a&gt;
+W, 10412, 32, 2014/06/17, 16:00:56.555, 39415370620, QTAgent32.exe, &lt;a class=success&gt;Playback - {7} [SUCCESS] SendKeys "{NumPad1}" - "[MSAA, VisibleOnly]ControlType='Text' &amp;&amp; Name='Result'"
+\0&lt;/a&gt;
+W, 10412, 32, 2014/06/17, 16:00:56.780, 39415766352, QTAgent32.exe, &lt;a class=success&gt;Playback - {8} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='TitleBar'"
+\0&lt;/a&gt;
+W, 10412, 32, 2014/06/17, 16:00:57.055, 39416247240, QTAgent32.exe, &lt;a class=success&gt;Playback - {9} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='Add'"
+\0&lt;/a&gt;
+W, 10412, 32, 2014/06/17, 16:00:57.285, 39416651823, QTAgent32.exe, &lt;a class=success&gt;Playback - {10} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='TitleBar'"
+\0&lt;/a&gt;
+W, 10412, 32, 2014/06/17, 16:00:57.604, 39417211533, QTAgent32.exe, &lt;a class=success&gt;Playback - {11} [SUCCESS] SendKeys "{NumPad6}" - "[MSAA, VisibleOnly]ControlType='Text' &amp;&amp; Name='Result'"
+\0&lt;/a&gt;
+W, 10412, 32, 2014/06/17, 16:00:57.829, 39417604717, QTAgent32.exe, &lt;a class=success&gt;Playback - {12} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='TitleBar'"
+\0&lt;/a&gt;
+W, 10412, 32, 2014/06/17, 16:00:58.110, 39418097916, QTAgent32.exe, &lt;a class=success&gt;Playback - {13} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='Equals'"
+\0&lt;/a&gt;
+W, 10412, 32, 2014/06/17, 16:00:58.270, 39418380003, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 10412, 32, 2014/06/17, 16:00:58.271, 39418380229, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
