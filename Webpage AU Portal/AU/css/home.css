@@ -1,0 +1,128 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#headline {
+	color: white;
+	font-family: Roboto, helvetica, arial, sans-serif;
+	background-color: black;
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#headline #logo{
+
+}
+
+#headline h2 {
+	font-weight: 300;
+	font-size: 25px;
+	margin-top: 5px;        
+}
+
+#headline #welcome {
+	font-weight: 100;
+	font-size: 18px;
+	float: left;      
+}
+
+#headline #deadline {
+	background-color: #39b1a4;
+	background-color: rgba(57,177, 164, 0.7);
+	padding: 1em;
+	float: right;
+	width: 20%;
+	text-align: center;
+	width:40%
+}
+
+#headline #deadline h2 {
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+}       
+.container {
+    margin: auto;
+    max-width:100%;
+}
+.container .mainmenu {
+    margin-top:auto;
+}
+.container .mainmenu nav {
+    background-color: #666;
+    height: 40px;
+    font-family:Roboto, Arial, Serif;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.mainmenu nav ul, .subcontainer ul {
+    list-style: none;
+    margin: auto;
+}
+.mainmenu nav ul li, .subcontainer ul li {
+    float: left;
+    display: inline;
+	height:40px;
+}
+.mainmenu nav a:link, .container .mainmenu nav a:visited {
+    color: #FFF;
+    display: inline-block;
+    padding: 10px;
+    height: 20px;
+}
+.mainmenu nav a:hover, .container .mainmenu nav a:active, .container .mainmenu nav .active a:link, .container .mainmenu nav .active a:visited {
+    background-color: silver;
+    text-shadow: none;
+}
+.mainmenu nav ul li a {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+  
+#footer {
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+	text-align: center;
+	background-color: silver;
+	color: black;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+@media screen and (min-width: 600px) {
+
+  
+  .container {
+	margin: auto;
+	max-width: 800px;
+  }
+  
+
+  #headline {
+	padding: 20px 5%;
+  }
+
+  #headline br {
+	clear: both;
+  }
+
+}
+
+@media screen and (min-width: 300px) {
+ 
+  
+  #headline {
+	padding: 20px 5%;
+  }
+
+  #headline br {
+	clear: both;
+  }
+}
+      
+
+     

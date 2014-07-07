@@ -1,0 +1,85 @@
+
+<!doctype html>
+    <html>
+      <head>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Home | Accolite University</title>
+         <link rel="stylesheet" href="css/home.css" type="text/css"/>
+		 <link rel="shortcut icon" href="accoliteicon.png">
+      </head>
+      <body>
+       <div id="headline">
+       <div class="container">     	
+       <div id="logo">
+       <img src="logo.png"></img>
+	      <div class="mainmenu">
+				<nav>
+					<ul>
+						<li><a href="home.html">HOME</a>
+						</li>
+						<li><a href="coursesnew.html">COURSES</a>
+						</li>
+						<li><a href="Instructors.html">INSTRUCTORS</a>
+						<li><a href="#">ABOUT</a></li>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		   <h2 style="position:relative;margin-left:35%">ACCOLITE UNIVERSITY</h2></div>
+		   <div id="welcome" >
+			<p>Welcome All of you to your very own Accolite University- &quot;AU&quot;, as we&#39;ll call it going forward!!
+			University, why? Well, your Training period will be a rigorous test of your skills and knowledge and how well you apply your college learning on to your projects. So, it is akin to a University, where you need to perform well and pass your Project assignments in order to &quot;Graduate&quot;. </p>
+			<p>Don&#39;t get psyched, enjoy your training period, you will have a lot of Mentors and Trainers to guide you through these projects in the next 2 months.
+			So..put in your best efforts and best foot forward!</p>
+			<p>Now, this website enlists all the Training Programs which you will be going through. Go ahead, explore it, and be prepared for the training sessions which are in store for you!</p>
+			<p>Feel free to share your thoughts/suggestions and also critical feedback if any.</p>
+		  </div>
+		<form method="post" id="deadline">
+<!--		  <iframe src="http://free.timeanddate.com/countdown/i4838b86/n438/cf13/cm0/cu4/ct0/cs1/ca0/co1/cr0/ss0/cacfff/cpcfff/pct/tcfff/fs80/szw320/szh135/tatTime%20Left%20for%20AU/tacfff/tptAU%20is%20in%20progress/tpcfff/iso2014-07-07T09:00:00" frameborder="0" width="115" height="80"></iframe>
+-->
+			<h3 id="countdownText">Countdown until AU</h3>
+			<h4 id="countdown-holder"></h4> 
+		</form>
+			<br>
+		</div>
+		</div>    
+    
+    <div id="footer">
+   
+    <a href="home.html">Feedback</a>
+    <a href="home.html">About</a>
+    &reg;Rights Reserved </div>    
+
+    <script src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.js"></script>
+	<script src="js/countdown.js"></script>
+	<!--<script>  
+//		var clock = document.getElementById("countdown-holder")  
+		, targetDate = new Date(2014, 06, 07); // Jan 1, 2050 
+		var currentDate = new Date();
+		if(currentDate < targetDate){
+		clock.innerHTML = countdown(targetDate).toString();
+		}
+	</script> 
+-->	<script>  
+		var clock = document.getElementById("countdown-holder")  
+		, targetDate = new Date(2014, 06, 07); 
+		var currentDate = new Date();
+		var endDate = new Date(2014, 07, 10);
+		if(currentDate < targetDate){
+			clock.innerHTML = countdown(targetDate).toString();
+			clock.innerHTML = countdown(targetDate).toString();  
+			setInterval(function(){  
+			clock.innerHTML = countdown(targetDate).toString();  
+			}, 1000);
+		}
+		else if(currentDate >= targetDate && currentDate < endDate){
+			document.getElementById("countdownText").innerHTML = "AU is in progress. See whats is going on J2"
+		}
+		else
+		{
+			document.getElementById("countdownText").innerHTML = "AU is over. See what happened then"
+		}
+	</script>  
+    </body>
+    </html>
